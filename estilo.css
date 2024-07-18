@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/background1.jpg'); /* Imagen de fondo temática de hackers */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.Bienvenida {
+    color: #b30606; /* Color negro para el título de bienvenida */
+}
+
+.quees {
+    background-color: rgba(155, 47, 47, 0.545); /* Color de fondo gris claro semi-transparente */
+    padding: 10px; /* Relleno de 10px alrededor del título */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    color: #008b17; /* Color crimsonoscuro para los títulos */
+}
+
+.historia{
+    background-color: rgba(155, 47, 47, 0.545); /* Color de fondo gris claro semi-transparente */
+    padding: 10px; /* Relleno de 10px alrededor del título */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    color: #8b1900; /* Color crimsonoscuro para los títulos */
+}
+
+.consecuencias{
+    background-color: rgba(155, 47, 47, 0.545); /* Color de fondo gris claro semi-transparente */
+    padding: 10px; /* Relleno de 10px alrededor del título */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    color: #8b1900; /* Color crimsonoscuro para los títulos */
+}
+
+.seguridad{
+    background-color: rgba(155, 47, 47, 0.545); /* Color de fondo gris claro semi-transparente */
+    padding: 10px; /* Relleno de 10px alrededor del título */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    color: #8b1900; /* Color crimsonoscuro para los títulos */
+}
+
+.Herramientas{
+    background-color: rgba(155, 47, 47, 0.545); /* Color de fondo gris claro semi-transparente */
+    padding: 10px; /* Relleno de 10px alrededor del título */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    color: #8b1900; /* Color crimsonoscuro para los títulos */
+}
+
+.Tecnicas{
+    background-color: rgba(155, 47, 47, 0.545); /* Color de fondo gris claro semi-transparente */
+    padding: 10px; /* Relleno de 10px alrededor del título */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    color: #8b1900; /* Color crimsonoscuro para los títulos */
+}
+
+.Galeria{
+    background-color: rgba(155, 47, 47, 0.545); /* Color de fondo gris claro semi-transparente */
+    padding: 10px; /* Relleno de 10px alrededor del título */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    color: #8b1900; /* Color crimsonoscuro para los títulos */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8b0000; /* Color crimsonoscuro para los títulos */
+}
+
+.section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(18, 136, 40); /* Color rojo para el texto */
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    .section h2 {
+        font-size: 2em;
+    }
+    .image-gallery img {
+        width: 100%;
+    }
+}
